@@ -8,6 +8,12 @@ The included tests cover the following scenarios:
 * Ensuring no firewall rules allow SSH/HTTP
 * Checking all compute instances to ensure none have a particular label
 
+## Running the tests
+
+With InSpec installed, run the following command from the root directory of the profile to execute the tests.  Note that the *attributes.yml* file should be updated with your GCP project name.
+```
+$ inspec exec . -t gcp:// --attrs attributes.yml
+```
 
 ## Useful Links
 
