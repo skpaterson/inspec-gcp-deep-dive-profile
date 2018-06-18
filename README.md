@@ -1,6 +1,6 @@
 # InSpec GCP Deep Dive Profile 
 
-This InSpec profile contains four example InSpec GCP testing scenarios. These were originally discussed in a blog post that will be linked here when available.
+This InSpec profile contains four example InSpec GCP testing scenarios. These were originally discussed in a [Chef blog post](https://blog.chef.io/). 
  
 The included tests cover the following scenarios:
 * Testing that a single GCP zone is available for use
