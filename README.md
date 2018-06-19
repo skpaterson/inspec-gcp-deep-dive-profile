@@ -1,6 +1,6 @@
 # InSpec GCP Deep Dive Profile 
 
-This InSpec profile contains four example InSpec GCP testing scenarios. These were originally discussed in a [Chef blog post](https://blog.chef.io/). 
+This InSpec profile contains four example InSpec GCP testing scenarios. These were originally discussed in a [Chef blog post](https://blog.chef.io/2018/06/19/inspec-gcp-deep-dive/). 
  
 The included tests cover the following scenarios:
 * Testing that a single GCP zone is available for use
@@ -19,8 +19,9 @@ $ inspec exec . -t gcp:// --attrs attributes.yml
 
 The following links have relevant information:
 * [Introductory blog post](https://lollyrock.com/articles/inspec-cloud-gcp-setup/)
+* [InSpec GCP Deep Dive blog post](https://blog.chef.io/2018/06/19/inspec-gcp-deep-dive/)
 * [inspec-gcp resource pack](https://github.com/inspec/inspec-gcp)
-* [Inspec](https://www.inspec.io/)
+* [InSpec](https://www.inspec.io/)
 
 ## Support
 
